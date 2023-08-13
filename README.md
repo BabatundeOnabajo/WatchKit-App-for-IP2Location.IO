@@ -5,4 +5,6 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 
 # Instructions
 
+# Credits
+
 # Disclaimer
