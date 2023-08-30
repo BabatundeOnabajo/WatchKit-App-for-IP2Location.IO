@@ -9,3 +9,4 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 Babatunde Onabajo (ChurchMapped Limited)
 
 # Disclaimer
+The code here does not represent the views of Apple, Inc, ChurchMapped Limited or Hexasoft Development Sdn. Bhd. nor should the publication of this program be construed as an endorsement of the aforementioned companies in any way. Any trademarks used in this program are those of their respective holders. 
