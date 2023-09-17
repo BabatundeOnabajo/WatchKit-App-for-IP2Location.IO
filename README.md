@@ -1,5 +1,5 @@
 # WatchKit-App-for-IP2Location.IO
-This is a WatchKit app designed for the IP2Location.IO services. It enables you to find out information about a given IP address with your Apple Watch, using the API provided by IP2Location.IO. The application shows the many contexts and use cases in which APIs can be used. 
+This is a WatchKit app designed for the IP2Location.IO services. It enables you to find out information about a given IP address with your Apple Watch, using the API provided by IP2Location.IO. The application shows the many contexts and use cases in which APIs can be used. It is programmed using Swift and uses the latest SwiftUI framework (as opposed to the more traditional, UIKit).
 
 # Requirements
 In order to use this smartwatch app, you will need the following:
