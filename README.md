@@ -3,6 +3,7 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 
 # Requirements
 In order to use this smartwatch app, you will need the following:
+* Internet connection
 
 # Background
 
