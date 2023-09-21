@@ -5,6 +5,8 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 In order to use this smartwatch app, you will need the following:
 * Internet connection
 
+It is not necessary to have an iPhone of any kind, as was once the case with previous watchOS systems (in particular, watchOS 1.0).
+
 # Background
 
 # Instructions
