@@ -17,4 +17,4 @@ In order to use this program, please follow the instructions below:
 Babatunde Onabajo (ChurchMapped Limited)
 
 # Disclaimer
-The code here does not represent the views of Apple, Inc, ChurchMapped Limited or Hexasoft Development Sdn. Bhd. nor should the publication of this program be construed as an endorsement of the aforementioned companies (or any past, present or future employer of the author) in any way. Any trademarks used in this program are those of their respective holders. 
+The code here does not represent the views of Apple, Inc, ChurchMapped Limited or Hexasoft Development Sdn. Bhd. nor should the publication of this program be construed as an endorsement of the aforementioned companies (or any past, present or future employer of the author) in any way. Any trademarks used in this program are those of their respective holders. This repository was submitted to the IP2Location.IO annual competition (2023). 
