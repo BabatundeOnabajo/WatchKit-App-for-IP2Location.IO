@@ -1,0 +1,22 @@
+// This file relates to the use of the "Playground" feature in the relevant version of Xcode. It enables you to test out IP2Location.IO's web service in Swift and see the complete JSON response, particularly as the IP2Location.IO website does not include any examples with Swift. Please note that this example does not parse the JSON file; it merely returns the JSON response completely. To see the parsed JSON response, please check out IP2LocationResponse2.playground.
+
+import Foundation
+import PlaygroundSupport
+
+PlaygroundPage.current.needsIndefiniteExecution = true
+
+let APIKEY = "" //Enter your API key here. You can obtain it after registering for an account with IP2Location.IO
+var IPAddress = "" //Enter the IP address you would like to test out. The default for IP2Location.IO as at September 30th 2023 is 86.187.174.247
+
+if let url = URL(string: "https://api.ip2location.io/?key=\(APIKEY)&ip=86.187.174.247"){
+    
+    URLSession.shared.dataTask(with: url){ data, response, error in if
+        let data = data {
+        if let jsonString = String(data: data, encoding: .utf8){
+            print(jsonString)
+        }
+    }
+}.resume()
+
+    
+} // After this in the console area you should see the raw JSON response. The JSON response should be the details affiliated with the IP address in question. Otherwise, an error should appear, also in JSON format, likely due to the wrong API key, an incorrect/invalid/nonexistent IP address, or insufficient credit. 
