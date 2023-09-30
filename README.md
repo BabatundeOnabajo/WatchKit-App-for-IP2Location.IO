@@ -15,8 +15,10 @@ In order to use this smartwatch app, you will need the following:
 It is not necessary to have an iPhone of any kind, as was once the case with previous watchOS systems (in particular, watchOS 1.0).
 
 # Background
+(to be amended shortly)
 
 # Description of each file in this repository
+(to be amended shortly)
 
 # Instructions
 Playground files are files that run in "Playgrounds", a feature of Xcode that enables you to quickly execute code without the need to run or compile a full-built app or project. Playgrounds are extremely helpful when wanting to see the effect of a particular line(s) of code. They are particularly relevant here as IP2Location.IO does not feature Swift in their examples. 
