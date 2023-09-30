@@ -1,1 +1,53 @@
+// This Playground shows the parsed response of the JSON file returned from IP2Location.IO.
+
+import Foundation
+import PlaygroundSupport
+
+PlaygroundPage.current.needsIndefiniteExecution = true
+
+let APIKEY = ""
+var ipAddress = ""
+
+struct testStruct: Codable { //We use the Codable protocol to ensure that we can begin to parse the JSON response. We have to be sure that each
+    let ip: String //This gives the IP Address
+    let country_code: String //This is the country code
+    let country_name: String //This is the official country name
+    let region_name: String // This is the name of the region.
+    let city_name: String // This gives the name of the city.
+    let latitude: Double //This gives the latitude. We have to use the Double type otherwise Swift will throw an error.
+    let longitude: Double //This gives the longitude. We have to use the Double type otherwise Swift will throw an error.
+    let zip_code: String //This is the zip_code/postcode.
+    let time_zone: String // This is the timezone that is used.
+    let asn: String //This is the Autonomous System Number (ASN).
+    let `as`: String //We have to use these special marks because "as" also has a particular meaning within the context of Swift. This is the Autonomous System Name.
+    let is_proxy: Bool //We have to set this to Bool otherwise Swift will throw an error. This indicates whether the IP address is a proxy or not.
+}
+
+if let url = URL(string: "https://api.ip2location.io/?key=\(APIKEY)&ip=\(ipAddress)"){
+    
+    URLSession.shared.dataTask(with:url){ data, response, error in
+        
+        if let data = data {
+            do{
+                let res = try JSONDecoder().decode(testStruct.self, from: data)
+                print(res.ip)
+                print(res.country_code)
+                print(res.country_name)
+                print(res.region_name)
+                print(res.city_name)
+                print(res.latitude)
+                print(res.longitude)
+                print(res.zip_code)
+                print(res.time_zone)
+                print(res.asn)
+                print(res.as)
+                
+            } catch let error {
+                print(error)
+            }
+        }
+        
+    }.resume()
+    
+} //Assuming that your Playground file is set to "Automatically Run" or you press "Run" yourself, you should see the parsed return in the console area. This is preferable and more readable than the situation where only the JSON response is printed out in one big lump.
 
