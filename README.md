@@ -4,6 +4,9 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 # Requirements
 In order to use this smartwatch app, you will need the following:
 * Internet connection
+* API key(s) from IP2Location.IO
+* Xcode Version 15.0 beta 8 or above (recommended as at September 30th 2023)
+* Physical Apple Watch or emulator
 
 It is not necessary to have an iPhone of any kind, as was once the case with previous watchOS systems (in particular, watchOS 1.0).
 
