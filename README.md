@@ -15,10 +15,10 @@ It is not necessary to have an iPhone of any kind, as was once the case with pre
 # Description of each file in this repository
 
 # Instructions
-## IP2LocationResponse2.playground
+### IP2LocationResponse2.playground
 In order to use this program, please follow the instructions below:
 
-## IP2LocationResponse2.playground
+### IP2LocationResponse2.playground
 
 # Credits
 Babatunde Onabajo (ChurchMapped Limited)
