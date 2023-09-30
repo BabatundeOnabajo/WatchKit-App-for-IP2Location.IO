@@ -12,6 +12,8 @@ It is not necessary to have an iPhone of any kind, as was once the case with pre
 
 # Background
 
+# Description of each file in this repository
+
 # Instructions
 In order to use this program, please follow the instructions below:
 
