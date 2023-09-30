@@ -15,6 +15,7 @@ It is not necessary to have an iPhone of any kind, as was once the case with pre
 # Description of each file in this repository
 
 # Instructions
+Playground files are files that run in "Playgrounds", a feature of Xcode that enables you to quickly execute code without the need to run or compile a full-built app or project. Playgrounds are extremely helpful when wanting to see the effect of a particular line(s) of code. They are particularly relevant here as IP2Location.IO does not feature Swift in their examples. 
 ### IP2LocationResponse2.playground
 In order to use this program, please follow the instructions below:
 
