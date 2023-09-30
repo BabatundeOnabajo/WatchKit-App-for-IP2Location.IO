@@ -8,7 +8,7 @@ PlaygroundPage.current.needsIndefiniteExecution = true
 let APIKEY = "" //Enter your API key here. You can obtain it after registering for an account with IP2Location.IO
 var IPAddress = "" //Enter the IP address you would like to test out. The default for IP2Location.IO as at September 30th 2023 is 86.187.174.247
 
-if let url = URL(string: "https://api.ip2location.io/?key=\(APIKEY)&ip=86.187.174.247"){
+if let url = URL(string: "https://api.ip2location.io/?key=\(APIKEY)&ip=\(IPAddress)"){
     
     URLSession.shared.dataTask(with: url){ data, response, error in if
         let data = data {
