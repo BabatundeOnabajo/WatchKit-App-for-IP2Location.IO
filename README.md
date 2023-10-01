@@ -45,6 +45,9 @@ In order to use this program, please follow the instructions below:
 *Note: This Playground file only returns responses for the following categories respectively: IP Address, Country Code, Country Name, Region Name, City Name, Latitude, Longitude, Zip Code, Time Zone, AS Number, AS Name, Proxy Status. There are more responses given by IP2Location.IO under various different plans, and the author of this repository has not checked for those responses. If you are using a different plan that returns more responses, you will need to amend the struct called "testStruct" as appropriate. Whilst this requires knowledge of Swift, this can also be potentially figured out by someone from a different programming background. 
 
 ### Apple Smartwatch
+#### Xcode
+
+#### Physical Apple Watch
 
 # Credits
 Babatunde Onabajo (ChurchMapped Limited)
