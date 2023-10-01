@@ -48,9 +48,11 @@ In order to use this program, please follow the instructions below:
 
 ### Apple Smartwatch
 #### Xcode (Emulator)
-1.
+1. Click on the "Code" button above here in Github and press "Download Zip".
+2. 
 #### Physical Apple Watch
-1. 
+1. Click on the "Code" button above here in Github and press "Download ZIP".
+2. 
 # Credits
 Babatunde Onabajo (ChurchMapped Limited)
 
