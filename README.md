@@ -28,8 +28,9 @@ In order to use this program, please follow the instructions below:
 2. Open Xcode (preferably Xcode Version 15.0 beta 8 or above). If you do not have Xcode, you may download it here: https://apps.apple.com/us/app/xcode/id497799835?mt=12 
 3. Click "Open" under the File tab in Xcode.
 4. Locate the location of the file and click "Open". This will open the Playground window.
-5. Press Run or, alternatively, long-click the button at the bottom of the Playground window and press "Automatically Run".
-6. You should see the JSON string printed in the console, or alternatively an error if there is an error for some reason (e.g. insufficient credit).
+5. Input the relevant IP address and API key in the Playground file. The area to do this should be indicated within the file when you open it.
+6. Press Run or, alternatively, long-click the button at the bottom of the Playground window and press "Automatically Run".
+7. You should see the JSON string printed in the console, or alternatively an error if there is an error for some reason (e.g. insufficient credit).
 
 *Note: This Playground file only returns responses for the following categories respectively: IP Address, Country Code, Country Name, Region Name, City Name, Latitude, Longitude, Zip Code, Time Zone, AS Number, AS Name, Proxy Status. There are more responses given by IP2Location.IO under various different plans, and the author of this repository has not checked for those responses. 
 
