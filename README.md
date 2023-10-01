@@ -46,9 +46,9 @@ In order to use this program, please follow the instructions below:
 
 ### Apple Smartwatch
 #### Xcode
-
+1.
 #### Physical Apple Watch
-
+1. 
 # Credits
 Babatunde Onabajo (ChurchMapped Limited)
 
