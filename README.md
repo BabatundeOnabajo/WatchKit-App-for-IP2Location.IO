@@ -3,6 +3,7 @@ This is a WatchKit app designed for the IP2Location.IO services. It enables you 
 
 <img width="305" alt="Screenshot 2023-09-30 at 16 01 59" src="https://github.com/BabatundeOnabajo/WatchKit-App-for-IP2Location.IO/assets/36359216/354ff935-c61e-447d-9732-cff0c96f5f57">
 <img width="315" alt="Screenshot 2023-09-30 at 16 05 46" src="https://github.com/BabatundeOnabajo/WatchKit-App-for-IP2Location.IO/assets/36359216/305fece5-65fb-4ee1-8500-f096fb1bb4e1">
+<img width="284" alt="Screenshot 2023-10-01 at 09 03 11" src="https://github.com/BabatundeOnabajo/WatchKit-App-for-IP2Location.IO/assets/36359216/fbede296-d1b4-4777-aad7-e3425ec90dde">
 
 
 # Requirements
