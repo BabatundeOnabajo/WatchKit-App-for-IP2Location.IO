@@ -49,6 +49,12 @@ In order to use this program, please follow the instructions below:
 5. Press Run or, alternatively, long-click the button at the bottom of the Playground window and press "Automatically Run".
 6. You should see the JSON string printed in the console, or alternatively an error if there is an error for some reason (e.g. insufficient credit).
 
+You should see a response similar to this below at the bottom of the Playground:
+
+<img width="960" alt="Screenshot 2023-10-06 at 07 13 06" src="https://github.com/BabatundeOnabajo/WatchKit-App-for-IP2Location.IO/assets/36359216/d2f7c5ea-1745-4910-adbf-9c4bc30110c9">
+
+
+
 *Note: This Playground file only returns responses for the following categories respectively: IP Address, Country Code, Country Name, Region Name, City Name, Latitude, Longitude, Zip Code, Time Zone, AS Number, AS Name, Proxy Status. There are more responses given by IP2Location.IO under various different plans, and the author of this repository has not checked for those responses. If you are using a different plan that returns more responses, you will need to amend the struct called "testStruct" as appropriate. Whilst this requires knowledge of Swift, this can also be potentially figured out by someone from a different programming background. 
 
 ### Apple Smartwatch
