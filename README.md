@@ -33,6 +33,11 @@ In order to use this program, please follow the instructions below:
 6. Press Run or, alternatively, long-click the button at the bottom of the Playground window and press "Automatically Run".
 7. You should see the JSON string printed in the console, or alternatively an error if there is an error for some reason (e.g. insufficient credit).
 
+You should see an output similar to this below at the bottom of the Playground:
+
+<img width="962" alt="Screenshot 2023-10-06 at 07 10 02" src="https://github.com/BabatundeOnabajo/WatchKit-App-for-IP2Location.IO/assets/36359216/0445b691-4e5d-4e02-b992-22b7803ec140">
+
+
 *Note: This Playground file only returns responses for the following categories respectively: IP Address, Country Code, Country Name, Region Name, City Name, Latitude, Longitude, Zip Code, Time Zone, AS Number, AS Name, Proxy Status. There are more responses given by IP2Location.IO under various different plans, and the author of this repository has not checked for those responses. 
 
 ### IP2LocationResponse2.playground
