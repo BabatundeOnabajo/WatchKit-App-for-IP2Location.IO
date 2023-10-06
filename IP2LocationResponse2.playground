@@ -5,8 +5,8 @@ import PlaygroundSupport
 
 PlaygroundPage.current.needsIndefiniteExecution = true
 
-let APIKEY = ""
-var ipAddress = ""
+let APIKEY = "" //Enter your API key here.
+var ipAddress = "" //Enter the IP address you want to check here.
 
 struct testStruct: Codable { //We use the Codable protocol to ensure that we can begin to parse the JSON response. We have to be sure that each
     let ip: String //This gives the IP Address
