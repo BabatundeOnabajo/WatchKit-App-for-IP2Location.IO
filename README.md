@@ -62,9 +62,11 @@ You should see a response similar to this below at the bottom of the Playground:
 
 ### Apple Smartwatch
 #### Xcode (Emulator)
+(to be amended shortly)
 1. Click on the "Code" button above here in Github and press "Download Zip".
 2. 
 #### Physical Apple Watch
+(to be amended shortly)
 1. Click on the "Code" button above here in Github and press "Download ZIP".
 2. 
 # Credits
