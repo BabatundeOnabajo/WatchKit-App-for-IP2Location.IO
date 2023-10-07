@@ -21,6 +21,9 @@ It is not necessary to have an iPhone of any kind, as was once the case with pre
 # Description of each file in this repository
 (to be amended shortly)
 
+1. IP2LocationResponse1.playground - This file is a Playground file. With an IP address in hand and an API key, you can quickly test out this code in Xcode. The output is a JSON string that is not parsed. (Note that this is only for the Basic plan offered by IP2Location.IO)
+2. IP2LocationResponse2.playground - This file is a Playground file. With an IP address in hand an an API key, you can quickly test out this code in Xcode. The output is a JSON string that is parsed. (Note that this is only for the Basic plan offered by IP2Location.IO)
+
 # Instructions
 Playground files are files that run in "Playgrounds", a feature of Xcode that enables you to quickly execute code without the need to run or compile a full-built app or project. Playgrounds are extremely helpful when wanting to see the effect of a particular line(s) of code. They are particularly relevant here as IP2Location.IO does not feature Swift in their examples. 
 ### IP2LocationResponse1.playground
